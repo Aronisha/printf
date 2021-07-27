@@ -1,5 +1,6 @@
-#ifndef _PRINTF_H_
-#define _PRINTF_H_
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
+
 #include <stdarg.h>
 
 #define BUFF_SIZE 1024
@@ -115,4 +116,5 @@ int get_numbase_len(unsigned int num, unsigned int base);
 int get_longnumbase_len(unsigned long int num, unsigned int base);
 void fill_numbase_buff(unsigned int, unsigned int, char *b, int size);
 void fill_longnumbase_buff(unsigned long int num, unsigned int, char *, int);
-#endif /* _PRINTF_H_ */
+
+#endif
